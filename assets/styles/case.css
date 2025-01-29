@@ -26,7 +26,7 @@
 }
 .content {
   font-size: 16px;
-  color: #333;
+  color: #555;
   margin-bottom: 20px;
 }
 .case-info   {
@@ -149,7 +149,7 @@
     font-size: 18px;
   }
   .content {
-    font-size: 20px;
+    font-size: 18px;
   }
   .background-blue .text-section {
     padding: 40px;

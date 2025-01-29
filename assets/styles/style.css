@@ -460,7 +460,7 @@ body {
   -moz-box-shadow: 0px 0px 15px 0px rgba(92, 99, 102, 0.8);
   box-shadow: 0px 0px 15px 0px rgba(92, 99, 102, 0.8);
 }
-.profile-comment-text p {
+.profile-comment-text p, .pet-projects p {
   font-size: 16px;
   font-weight: 500;
   line-height: 150%;
@@ -635,7 +635,7 @@ body {
   opacity: 1;
 }
 .yoshopRestaurant {
-  background-image: url("../images/yoshopRestuarant.png");
+  background-image: url("../images/YoshopRestuarant.png");
 }
 .createGo {
   background-image: url("../images/Creatego.png");
@@ -722,6 +722,9 @@ body {
   align-items: center;
   gap: 8px;
   padding: 12px;
+}
+.copy-button {
+  cursor: pointer;
 }
 .contacts-title {
   color: var(--chinese-black-500);

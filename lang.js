@@ -45,7 +45,7 @@ const homeTexts = {
   },
   portfolio: {
     ru: "Портфолио",
-    en: "Portfolio",
+    en: "Case studies",
   },
   "yoshop-case-title": {
     ru: "YoShop Restaurant",
@@ -113,6 +113,14 @@ const homeTexts = {
   },
 };
 const aboutTexts = {
+  "personal-info-title": {
+    ru: "Чем я занимаюсь",
+    en: "What i was doing",
+  },
+  "personal-info-title-2" :{
+    ru: "Дизайнер с опытом в разработке",
+    en: "Designer with Developer background",
+  },
   "personal-info-desc-1": {
     ru: "Уже два года я занимаюсь дизайном цифровых продуктов, опираясь на предыдущий четырёхлетний опыт в разработке fintech-продуктов и SaaS-решений. Эта комбинация позволяет мне создавать интерфейсы, которые не только эстетичны и удобны, но и учитывают технические возможности реализации.",
     en: "I have been designing digital products for two years now, building on my previous four years of experience in developing fintech products and SaaS solutions. This combination allows me to create interfaces that are not only aesthetically pleasing and user-friendly, but also take into account the technical possibilities of implementation.",
@@ -121,9 +129,13 @@ const aboutTexts = {
     ru: "Мои ключевые сильные стороны — это умение взаимодействовать с командами, решать сложные задачи на основе данных и обратной связи, а также находить баланс между потребностями пользователей и бизнес-целями.",
     en: "My key strengths are the ability to collaborate with teams, solve complex problems based on data and feedback, and balance user needs with business goals.",
   },
-  "personal-info-title": {
-    ru: "Чем я занимаюсь",
-    en: "What i was doing",
+  "personal-info-desc-3": {
+    ru: "Я как дизайнер-разработчик. Создаю интерактивные и технически реализуемые дизайны, которые упрощают процесс разработки и улучшают пользовательский опыт.",
+    en: "As a designer-developer, I create interactive and technically feasible designs that simplify the development process and improve user experience.",
+  },  
+  "personal-info-desc-4": {
+    ru: "Понимая технические аспекты Я создаю продуманные системы, которые можно легко расширять и адаптировать под будущие изменения.",
+    en: "Understanding the technical aspects I create thoughtful systems that can be easily expanded and adapted to future changes.",
   },
   "menu-item-about": {
     ru: "обо мне",
@@ -165,6 +177,18 @@ const aboutTexts = {
     ru: "Профиль в инстаграме",
     en: "Instagram profile",
   },
+  "hobby-title-volley": {
+    ru: "Волейбол",
+    en: "Volleyball",
+  },
+  "hobby-title-mountain": {
+    ru: "Горы",
+    en: "Mountains",
+  },
+  "hobby-title-customization": {
+    ru: "Рукоделие/Кастомизация",
+    en: "DIY/Customization",
+  }
 };
 const yoShopRestaurantTexts = {
   "case-title": {
@@ -188,12 +212,12 @@ const yoShopRestaurantTexts = {
     en: "YoShop Restaurant - a universal B2B software solution adapted for the restaurant industry, serving both dine-in and takeout services. This platform optimizes various aspects of restaurant management.",
   },
   "breadcrumb-portfolio": {
-    en: "Portfolio",
+    en: "Case studies",
     ru: "Портфолио",
   },
   "breadcrumb-yoshop-restaurant": {
     en: "Yoshop Restaurant",
-    ru: "Ресторан Yoshop",
+    ru: "Yoshop Ресторан",
   },
   "dropdown-creatego": {
     en: "CreateGo",
@@ -210,6 +234,18 @@ const yoShopRestaurantTexts = {
   "dropdown-ronto-tech": {
     en: "Ronto Tech",
     ru: "Ronto Tech",
+  },
+    "dropdown-yoshoprestuarant": {
+    en: "Yoshop Restaurant",
+    ru: "Yoshop Ресторан",
+  },
+  "dropdown-mobile-apps" :{
+    en: "Mobile Apps",
+    ru: "Мобильные приложения",
+  },
+  "dropdown-landings" :{
+    en: "Landings",
+    ru: "Лендинги",
   },
   "case-info-role": {
     en: "Role",
@@ -246,10 +282,6 @@ const yoShopRestaurantTexts = {
   "case-info-business-challenge-content": {
     en: "The main goal is to implement all the necessary functions that existing analogues have, but make them more convenient and visually appealing.",
     ru: "Основная цель - реализовать все необходимые функции, которые есть у существующих аналогов, но сделать их более удобными и визуально привлекательными. ",
-  },
-  "case-info-business-challenge-content-2": {
-    en: "Expand the user base by increasing the number of customers from 100 to 1000 in one year.",
-    ru: "Расширить пользовательскую базу, увеличив количество клиентов со 100 до 1000 за один  год. ",
   },
   "case-info-business-challenge-content-3": {
     en: "The project aims to create the simplest and most effective product that will become an indispensable tool for the restaurant business.",
@@ -389,6 +421,10 @@ const rontoTexts = {
     ru: "При разработке сайта Ronto Tech реализована и  мобильная адаптация. Интерфейс был  оптимизирован для комфортного просмотра и взаимодействия на всех типах мобильных устройств",
     en: "During the development of the Ronto Tech website, mobile adaptation was implemented. The interface was optimized for comfortable viewing and interaction on all types of mobile devices.",
   },
+  "challenge-title": {
+    ru: "Основные задачи",
+    en: "Main challenges",
+  },
   "case-about-mobile": {
     ru: "Мобильная адаптация",
     en: "Mobile",
@@ -408,6 +444,38 @@ const rontoTexts = {
   "menu-item-contacts": {
     ru: "контакты",
     en: "contacts",
+  },
+  "breadcrumb-yoshop-ronto": {
+    ru: "CreateGo",
+    en: "CreateGo",
+  },
+  "dropdown-creatego": {
+    en: "CreateGo",
+    ru: "CreateGo",
+  },
+  "dropdown-yoshop-kiosk": {
+    en: "Yoshop Kiosk",
+    ru: "Киоск Yoshop",
+  },
+  "dropdown-vixco": {
+    en: "Vixco",
+    ru: "Vixco",
+  },
+  "dropdown-ronto-tech": {
+    en: "Ronto Tech",
+    ru: "Ronto Tech",
+  },
+  "dropdown-yoshoprestuarant": {
+    en: "Yoshop Restaurant",
+    ru: "Yoshop Ресторан",
+  },
+  "dropdown-mobile-apps" :{
+    en: "Mobile Apps",
+    ru: "Мобильные приложения",
+  },
+  "dropdown-landings" :{
+    en: "Landings",
+    ru: "Лендинги",
   },
   "footer-title": {
     ru: "Всегда открыта для интересных проектов, сотрудничества и дружеского общения",
@@ -439,6 +507,42 @@ const creategoTexts = {
     ru: "Элементы пользовательского интерфейса на основе  дизайн системы Xela, контраст белого и синего",
     en: "UI elements based on design system Xela, contrast with white and blue",
   },
+  "challenge-title": {
+    ru: "Основные задачи",
+    en: "Main challenges",
+  },
+  "breadcrumb-yoshop-creatego": {
+    ru: "CreateGo",
+    en: "CreateGo",
+  },
+  "dropdown-creatego": {
+    en: "CreateGo",
+    ru: "CreateGo",
+  },
+  "dropdown-yoshop-kiosk": {
+    en: "Yoshop Kiosk",
+    ru: "Киоск Yoshop",
+  },
+  "dropdown-vixco": {
+    en: "Vixco",
+    ru: "Vixco",
+  },
+  "dropdown-ronto-tech": {
+    en: "Ronto Tech",
+    ru: "Ronto Tech",
+  },
+  "dropdown-yoshoprestuarant": {
+    en: "Yoshop Restaurant",
+    ru: "Yoshop Ресторан",
+  },
+  "dropdown-mobile-apps" :{
+    en: "Mobile Apps",
+    ru: "Мобильные приложения",
+  },
+  "dropdown-landings" :{
+    en: "Landings",
+    ru: "Лендинги",
+  },
   "menu-item-about": {
     ru: "обо мне",
     en: "about",
@@ -468,6 +572,106 @@ const creategoTexts = {
     en: "Other social media",
   },
 };
+
+const kioskTexts = {
+  "case-info-business-challenge-content" :{
+    ru: "Ключевая цель проекта - сократить время ожидания, уменьшить очереди и сделать процесс заказа максимально удобным для посетителей. Интерфейс разработан с учетом потребностей разных возрастных групп и обеспечивает интуитивно понятную навигацию по меню с качественной визуализацией блюд.",
+    en: "The key goal of the project is to increase user conversion rates, reduce waiting time and lower costs of product sales. The interface is designed to meet the needs of different age groups and provides intuitive navigation through the menu with high-quality visualization of products.",
+  },
+  "yoshop-kiosk-description":{
+    ru: "YoShop Kiosk - решение для ресторанов, автоматизирующее процесс обслуживания через интуитивный терминал самообслуживания, который позволяет клиентам быстро выбирать блюда, сокращать время ожидания и улучшать общее качество взаимодействия с рестораном.",
+    en: "YoShop Kiosk is a solution for restaurants that automates the service process through an intuitive self-service terminal, which allows customers to quickly select dishes, reduce waiting time and improve the overall quality of interaction with the restaurant.",
+  },
+  "challenge-item-point-li-1": { 
+    ru: "Разработка логики заказа с минимальным количеством шагов",
+    en: "Developing order logic with a minimum number of steps",
+   },
+  "challenge-item-point-li-2": { 
+    ru: "Создание понятной системы категоризации блюд и поиска",
+    en: "Creating a clear system for categorizing dishes and searching",
+   },
+  "challenge-item-point-li-3": { 
+    ru: "Дизайн удобного процесса кастомизации заказа (добавление ингредиентов, изменение порций)",
+    en: "Design of a convenient order customization process (adding ingredients, changing portions)",
+   },
+  "challenge-item-point-li-4": { 
+    ru: "Разработка информативных карточек блюд с ценами, составом и фото",
+    en: "Development of informative cards of dishes with prices, composition and photos",
+   },
+  "challenge-item-point-li-5": {
+    ru: "Адаптация интерфейса под большое разрешение экрана",
+    en: "Adaptation of the interface to large screen resolutions",
+    },
+
+  "challenge-title": {
+    ru: "Основные задачи",
+    en: "Main challenges",
+  },
+  "case-about-title": {
+    ru: "О проекте",
+    en: "About the project",
+  },
+  "breadcrumb-yoshop-kiosk": {
+    ru: "Yoshop Киоск",
+    en: "Yoshop Kiosk",
+  },
+  "dropdown-creatego": {
+    en: "CreateGo",
+    ru: "CreateGo",
+  },
+  "dropdown-yoshop-kiosk": {
+    en: "Yoshop Kiosk",
+    ru: "Киоск Yoshop",
+  },
+  "dropdown-vixco": {
+    en: "Vixco",
+    ru: "Vixco",
+  },
+  "dropdown-ronto-tech": {
+    en: "Ronto Tech",
+    ru: "Ronto Tech",
+  },
+  "dropdown-yoshoprestuarant": {
+    en: "Yoshop Restaurant",
+    ru: "Yoshop Ресторан",
+  },
+  "dropdown-mobile-apps" :{
+    en: "Mobile Apps",
+    ru: "Мобильные приложения",
+  },
+  "dropdown-landings" :{
+    en: "Landings",
+    ru: "Лендинги",
+  },
+  "menu-item-about": {
+    ru: "обо мне",
+    en: "about",
+  },
+  "menu-item-work": {
+    ru: "работа",
+    en: "work",
+  },
+  "menu-item-home": {
+    ru: "главная",
+    en: "home",
+  },
+  "menu-item-contacts": {
+    ru: "контакты",
+    en: "contacts",
+  },
+  "footer-title": {
+    ru: "Всегда открыта для интересных проектов, сотрудничества и дружеского общения",
+    en: "Always open to interesting projects, collaboration, and friendly conversation.",
+  },
+  "footer-call-button": {
+    ru: "назначить звонок",
+    en: "Schedule a call",
+  },
+  "footer-social-title": {
+    ru: "В других социальных сетях",
+    en: "Other social media",
+  },
+}
 function checkPagePathName() {
   // console.log("currentPathName", currentPathName);
   if (currentPathName.includes("index.html") || currentPathName === "/") {
@@ -480,6 +684,8 @@ function checkPagePathName() {
     currentTexts = rontoTexts;
   } else if (currentPathName.includes("creatego-case.html")) {
     currentTexts = creategoTexts;
+  } else if (currentPathName.includes("yoshop-kiosk.html")) {
+    currentTexts = kioskTexts;
   } else {
     currentTexts = homeTexts;
   }
